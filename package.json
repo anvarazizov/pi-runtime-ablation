@@ -1,0 +1,38 @@
+{
+  "name": "pi-runtime-ablation",
+  "version": "0.1.0",
+  "description": "Pi extension: per-session switch for runtimes that apply an ablation / heretic direction correction at inference time, with strength and layer control",
+  "license": "MIT",
+  "type": "module",
+  "author": "Anvar Azizov",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "ablation",
+    "abliteration",
+    "heretic",
+    "directions"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/runtime-ablation.ts"
+    ]
+  },
+  "files": [
+    "extensions/runtime-ablation.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^24.0.0",
+    "@earendil-works/pi-coding-agent": "1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvarazizov/pi-runtime-ablation.git"
+  }
+}
